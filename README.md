@@ -11,7 +11,7 @@ Didactic Solutions is a Corporate Training System. It has two modules eLearing M
 
 <hr />
 
-<h3 align="left">Languages, Framework, and Tools:</h3>
+<h3 align="left">Languages, Framework, and Tools :</h3>
 <p align="left"> 
   <a href="https://bestofreactjs.com/" target="_blank"> 
     <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="c" width="40" height="40"/> 
