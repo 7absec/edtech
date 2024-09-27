@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Footer() {    
     return (
 
-    <footer className="test-muted py-5 container-fluid main_container mt-3 mx-5 footer">
+    <footer className="container-fluid">
+        <br />
         <hr />
         <div className="container">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">

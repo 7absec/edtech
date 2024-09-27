@@ -60,25 +60,29 @@ function Login(){
     }
 
     return(
-        <div class="login-box">
-            <h2>Login</h2>
-            <form>
-                <div class="user-box">
-                    <input value={studentLoginData.email} onChange={handleChange} name="email"  className="form-control" type="email" required="" />
-                    <label>Email</label>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-3 col-12"></div>
+                <div className="col-md-6 col-12">
+                    <div class="login-box">
+                        <h2>Login</h2>
+                        <form>
+                            <div class="user-box">
+                                <label>Email</label>
+                                <input value={studentLoginData.email} onChange={handleChange} name="email"  className="form-control" type="email" required="" />
+                            </div>
+                            <div class="user-box">
+                                <label>Password</label>
+                                <input value={studentLoginData.password} onChange={handleChange} name="password" type='password' className="form-control" id="exampleInputPassword1" required="" />
+                            </div>
+                            <br />
+                            <a className='btn btn-primary' onClick={function(event){ submitForm(); handleLogin();}}>
+                            Submit
+                            </a>
+                        </form>
+                    </div>
                 </div>
-                <div class="user-box">
-                    <input value={studentLoginData.password} onChange={handleChange} name="password" type='password' className="form-control" id="exampleInputPassword1" required="" />
-                    <label>Password</label>
-                </div>
-                <a onClick={function(event){ submitForm(); handleLogin();}}>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-                </a>
-            </form>
+            </div>
         </div>
 
         // <div className='container-fluid main_container mt-5'>

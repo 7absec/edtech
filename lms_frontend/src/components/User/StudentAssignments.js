@@ -54,7 +54,7 @@ function StudentAssignments() {
   
 
   return (
-    <div className="container mt-4">
+    <div className="container-fluid">
       <div className="row">
         <aside className="col-md-3"><UserSidebar /></aside>
         <section className="col-md-9">

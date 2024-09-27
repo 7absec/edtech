@@ -24,8 +24,8 @@ function TeacherDashboard(){
     return(
         <div className='container-fluid main_container'>
             <div className='row'>
-                <aside className='col-md-2'><TrainerSidebar /></aside>
-                <section className='col-md-7 mt-3'>
+                <aside className='col-md-3'><TrainerSidebar /></aside>
+                <section className='col-md-9 mt-3'>
                    <div className='row'>
                     <h3 className="text-center mb-5">Teacher Dashboard</h3>
                     <div className='col-md-4'>
